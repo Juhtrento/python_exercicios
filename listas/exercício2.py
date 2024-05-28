@@ -5,9 +5,9 @@ while iteracao <= 5:
     numeros.append(resposta)
     iteracao+=1
 
-print(numeros)
-print(sum(numeros))
-print(max(numeros))
-print(min(numeros))
-print(sum(numeros)/len(numeros))
+print(f" Sua lista ficou da seguinte forma: {numeros}")
+print(f" A soma de todos os númros da lista é de: {sum(numeros)}")
+print(f" O maior número da lista é: {max(numeros)}")
+print(f" O menor número da lista é: {min(numeros)}")
+print(f" A média dos números da lista é de: {sum(numeros)/len(numeros)}")
 
